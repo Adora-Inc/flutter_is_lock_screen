@@ -35,3 +35,6 @@ Icon?
 
 /Flutter/Generated.xcconfig
 /Flutter/flutter_export_environment.sh
+# Swift Package Manager
+/is_lock_screen/.build/
+/is_lock_screen/.swiftpm/

@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftIsLockScreenPlugin: NSObject, FlutterPlugin {
+public class IsLockScreenPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(name: "is_lock_screen", binaryMessenger: registrar.messenger())
-        let instance = SwiftIsLockScreenPlugin()
+        let instance = IsLockScreenPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }
 
